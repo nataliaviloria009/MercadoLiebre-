@@ -3,8 +3,8 @@ const app = express();
 const path = require('path');
 
 
-app.listen(3030, () => {
-    console.log('Server is running on port 3030');
+app.listen(3000, function() {
+    console.log('Server is running on port 3000');
 })
 
 app.get('/', (req, res) => {
